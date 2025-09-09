@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 import AnimatedBackground from "@/components/AnimatedBackground";
 
 export const metadata: Metadata = {
-  title: "Dhaval Rathva - Portfolio",
+  title: "DMR.dev",
   description: "Tech Student & Aspiring Developer",
 };
 

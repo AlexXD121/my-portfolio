@@ -17,7 +17,7 @@ export default function ProjectsPage() {
     <>
       <Header />
       <motion.main 
-        className="min-h-screen pt-32 pb-28"
+        className="min-h-screen pt-32 pb-28 bg-black"
         variants={fadeInUp}
         initial="hidden"
         animate="visible"
@@ -37,7 +37,7 @@ export default function ProjectsPage() {
             My Projects
           </motion.h1>
           <motion.div 
-            className="w-20 h-1 bg-gradient-to-r from-emerald-400 to-green-400 mx-auto mb-6"
+            className="w-20 h-1 bg-gradient-to-r from-cyan-300 to-cyan-400 mx-auto mb-6"
             variants={staggerItem}
           />
           <motion.p 
@@ -59,7 +59,7 @@ export default function ProjectsPage() {
           {categories.map((category, index) => (
             <motion.span
               key={category}
-              className="px-4 py-2 bg-emerald-500/10 text-emerald-400 rounded-full text-sm font-medium border border-emerald-500/20"
+              className="px-4 py-2 bg-cyan-400/10 text-cyan-300 rounded-full text-sm font-medium border border-cyan-400/20"
               variants={staggerItem}
               custom={index}
             >
@@ -87,7 +87,7 @@ export default function ProjectsPage() {
                     {project.image}
                   </div>
                   <div className="flex items-center justify-between mb-2">
-                    <span className="px-2 py-1 bg-emerald-500/10 text-emerald-400 rounded text-xs font-medium">
+                    <span className="px-2 py-1 bg-cyan-400/10 text-cyan-300 rounded text-xs font-medium">
                       {project.category}
                     </span>
                     {project.featured && (
@@ -96,7 +96,7 @@ export default function ProjectsPage() {
                       </span>
                     )}
                   </div>
-                  <h3 className="text-xl font-semibold text-white mb-3 group-hover:text-emerald-400 transition-colors">
+                  <h3 className="text-xl font-semibold text-white mb-3 group-hover:text-cyan-300 transition-colors">
                     {project.title}
                   </h3>
                 </CardHeader>

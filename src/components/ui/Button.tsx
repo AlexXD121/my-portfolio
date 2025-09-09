@@ -24,8 +24,8 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>((
   const baseStyles = 'rounded-lg font-medium transition-all duration-300';
   
   const variantStyles = {
-    primary: 'bg-gradient-to-r from-emerald-600 to-green-500 text-white hover:shadow-lg hover:-translate-y-1',
-    outline: 'border-2 border-emerald-500 text-emerald-400 hover:bg-emerald-500 hover:text-black hover:-translate-y-1'
+    primary: 'bg-gradient-to-r from-cyan-400 to-cyan-500 text-white hover:shadow-lg hover:-translate-y-1',
+    outline: 'border-2 border-cyan-400 text-cyan-300 hover:bg-cyan-400 hover:text-black hover:-translate-y-1'
   };
   
   const sizeStyles = {

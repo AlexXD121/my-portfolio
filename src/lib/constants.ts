@@ -75,6 +75,7 @@ export const NAV_LINKS = [
 export const SKILLS = {
   frontend: ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'React', 'Next.js', 'Tailwind CSS'],
   backend: ['Node.js', 'Express', 'MongoDB', 'Firebase', 'SQL'],
+  dataScience: ['Python', 'NumPy', 'Pandas', 'Matplotlib', 'Scikit-learn', 'TensorFlow'],
   tools: ['Git', 'GitHub', 'VS Code', 'Figma', 'Postman']
 };
 
