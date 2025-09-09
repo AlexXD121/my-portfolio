@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Ideas for Tech Students</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <h2>Portfolio Hub</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#templates" class="nav-link">Templates</a></li>
+                <li><a href="#trends" class="nav-link">Trends</a></li>
+                <li><a href="#resources" class="nav-link">Resources</a></li>
+                <li><a href="#tips" class="nav-link">Tips</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section home-section">
+        <div class="container">
+            <div class="hero">
+                <h1 class="hero-title">Portfolio Ideas for Tech Students</h1>
+                <p class="hero-subtitle">Discover modern portfolio templates, design trends, and best practices to create an outstanding online presence that showcases your skills and lands you opportunities.</p>
+                <div class="hero-buttons">
+                    <button class="btn btn--primary" onclick="scrollToSection('templates')">Explore Templates</button>
+                    <button class="btn btn--outline" onclick="scrollToSection('trends')">View Trends</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://pplx-res.cloudinary.com/image/upload/v1754681097/pplx_project_search_images/47ea3dca1d9e00a1e62e77df92fabda5610a1bdd.png" alt="Portfolio Design Example" class="hero-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Templates Section -->
+    <section id="templates" class="section">
+        <div class="container">
+            <h2 class="section-title">Portfolio Template Gallery</h2>
+            <p class="section-subtitle">Choose from different styles that match your personality and career goals</p>
+            <div class="template-grid" id="templateGrid"></div>
+        </div>
+    </section>
+
+    <!-- Trends Section -->
+    <section id="trends" class="section">
+        <div class="container">
+            <h2 class="section-title">2025 Design Trends</h2>
+            <p class="section-subtitle">Stay ahead with the latest web design trends for portfolios</p>
+            <div class="trends-grid" id="trendsGrid"></div>
+        </div>
+    </section>
+
+    <!-- Resources Section -->
+    <section id="resources" class="section">
+        <div class="container">
+            <h2 class="section-title">Resources & Tools</h2>
+            <p class="section-subtitle">Everything you need to build your perfect portfolio</p>
+            <div class="resources-grid" id="resourcesGrid"></div>
+        </div>
+    </section>
+
+    <!-- Tips Section -->
+    <section id="tips" class="section">
+        <div class="container">
+            <h2 class="section-title">Tips & Best Practices</h2>
+            <p class="section-subtitle">Expert advice to make your portfolio stand out</p>
+            <div class="tips-grid" id="tipsGrid"></div>
+            <div class="comparison-chart">
+                <h3>Portfolio Type Comparison</h3>
+                <img src="https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/8d17981bc8916ce4f0f8da6013e5e305/12c09d17-9fc9-4338-99fe-70b40a2dab69/48b90723.png" alt="Portfolio Comparison Chart" class="chart-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div id="templateModal" class="modal hidden">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <div id="modalBody" class="modal-body"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
